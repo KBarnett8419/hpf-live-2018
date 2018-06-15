@@ -1,0 +1,724 @@
+0000.000 (0) Opened log file at time: Thu, 14 Jun 2018 22:07:31 +0000 on https://higherpurposefellowship.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.1M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.171 (0) Free space on disk containing Updraft's temporary directory: 952844.5 MB
+0000.173 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.173 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.178 (0) Semaphore (fd, wp_options) being initialised
+0000.180 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.182 (0) Set semaphore last lock (fd) time to 2018-06-14 22:07:31
+0000.182 (0) Semaphore lock (fd) complete
+0000.185 (0) Backup run: resumption=0, nonce=df0b15d182e7, begun at=1529014051 (0s ago), job type=backup
+0000.187 (0) Scheduling a resumption (1) after 300 seconds (1529014351) in case this run gets aborted
+0000.210 (0) Checking if we have a zip executable available
+0000.211 (0) Testing: /usr/bin/zip
+0000.217 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.218 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.219 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.219 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.220 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.225 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.226 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.233 (0) Working binary zip found: /usr/bin/zip
+0000.234 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.235 (0) Creation of backups of directories: beginning
+0000.237 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.290 (0) Total entities for the zip file: 893 directories, 5538 files (0 skipped as non-modified), 90.3 MB
+0001.294 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.296 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.299 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.302 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.305 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.306 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 5538 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0007.852 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 2.10 MB
+0007.856 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 600 files added (on-disk size: 2151.5 KB)
+0007.859 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 700 files added (on-disk size: 2151.5 KB)
+0007.862 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 800 files added (on-disk size: 2151.5 KB)
+0007.865 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 900 files added (on-disk size: 2151.5 KB)
+0007.868 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1000 files added (on-disk size: 2151.5 KB)
+0007.869 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.2 MB, 5538 files batched, 501 (1002) added so far); re-opening (prior size: 2151.5 KB)
+0026.760 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 7.10 MB
+0026.765 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1100 files added (on-disk size: 7294.8 KB)
+0026.768 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1200 files added (on-disk size: 7294.8 KB)
+0026.771 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1300 files added (on-disk size: 7294.8 KB)
+0026.774 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1400 files added (on-disk size: 7294.8 KB)
+0026.778 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1500 files added (on-disk size: 7294.8 KB)
+0026.778 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 5538 files batched, 501 (1503) added so far); re-opening (prior size: 7294.8 KB)
+0035.335 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1600 files added (on-disk size: 8151.1 KB)
+0035.340 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1700 files added (on-disk size: 8151.1 KB)
+0035.345 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1800 files added (on-disk size: 8151.1 KB)
+0035.349 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 1900 files added (on-disk size: 8151.1 KB)
+0035.354 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2000 files added (on-disk size: 8151.1 KB)
+0035.355 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.4 MB, 5538 files batched, 501 (2004) added so far); re-opening (prior size: 8151.1 KB)
+0046.574 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 10.60 MB
+0046.579 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2100 files added (on-disk size: 10903.8 KB)
+0046.582 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2200 files added (on-disk size: 10903.8 KB)
+0046.584 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2300 files added (on-disk size: 10903.8 KB)
+0046.587 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2400 files added (on-disk size: 10903.8 KB)
+0046.590 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2500 files added (on-disk size: 10903.8 KB)
+0046.591 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 5538 files batched, 501 (2505) added so far); re-opening (prior size: 10903.8 KB)
+0062.565 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2600 files added (on-disk size: 12633.3 KB)
+0062.568 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2700 files added (on-disk size: 12633.3 KB)
+0062.571 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2800 files added (on-disk size: 12633.3 KB)
+0062.574 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 2900 files added (on-disk size: 12633.3 KB)
+0062.577 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3000 files added (on-disk size: 12633.3 KB)
+0062.578 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 5538 files batched, 501 (3006) added so far); re-opening (prior size: 12633.3 KB)
+0072.976 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 15.00 MB
+0072.980 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3100 files added (on-disk size: 15351.5 KB)
+0072.983 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3200 files added (on-disk size: 15351.5 KB)
+0072.987 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3300 files added (on-disk size: 15351.5 KB)
+0072.991 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3400 files added (on-disk size: 15351.5 KB)
+0072.995 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3500 files added (on-disk size: 15351.5 KB)
+0072.996 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.2 MB, 5538 files batched, 501 (3507) added so far); re-opening (prior size: 15351.5 KB)
+0093.270 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 19.70 MB
+0093.275 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3600 files added (on-disk size: 20141 KB)
+0093.277 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3700 files added (on-disk size: 20141 KB)
+0093.280 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3800 files added (on-disk size: 20141 KB)
+0093.283 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 3900 files added (on-disk size: 20141 KB)
+0093.286 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4000 files added (on-disk size: 20141 KB)
+0093.287 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 5538 files batched, 501 (4008) added so far); re-opening (prior size: 20141 KB)
+0115.075 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 25.50 MB
+0115.082 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4100 files added (on-disk size: 26066.1 KB)
+0115.087 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4200 files added (on-disk size: 26066.1 KB)
+0115.092 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4300 files added (on-disk size: 26066.1 KB)
+0115.096 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4400 files added (on-disk size: 26066.1 KB)
+0115.099 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4500 files added (on-disk size: 26066.1 KB)
+0115.100 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 5538 files batched, 501 (4509) added so far); re-opening (prior size: 26066.1 KB)
+0143.084 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4600 files added (on-disk size: 26841.6 KB)
+0143.088 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4700 files added (on-disk size: 26841.6 KB)
+0143.091 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4800 files added (on-disk size: 26841.6 KB)
+0143.094 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 4900 files added (on-disk size: 26841.6 KB)
+0143.097 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5000 files added (on-disk size: 26841.6 KB)
+0143.098 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 5538 files batched, 501 (5010) added so far); re-opening (prior size: 26841.6 KB)
+0170.562 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5100 files added (on-disk size: 27833.7 KB)
+0170.565 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5200 files added (on-disk size: 27833.7 KB)
+0170.568 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5300 files added (on-disk size: 27833.7 KB)
+0170.571 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5400 files added (on-disk size: 27833.7 KB)
+0170.574 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: 5500 files added (on-disk size: 27833.7 KB)
+0170.574 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.3 MB, 5538 files batched, 501 (5511) added so far); re-opening (prior size: 27833.7 KB)
+0225.770 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip.tmp: size is now: 34.00 MB
+0263.257 (0) The scheduled resumption is within 45 seconds - will reschedule
+0263.259 (0) Rescheduling resumption 1: moving to 345 seconds from now (1529014659)
+0263.262 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0263.831 (0) Created plugins zip (0) - 37481.1 KB in 263.3 s (142.3 KB/s) (sha1: ad671a053bd455082c8aaa062a3439e5e36d1d87, sha256: 71ad2038eaf77aa3317d051820043bc8cf97ed20085a30107d2c71d57801d21d)
+0263.833 (0) Beginning creation of dump of themes (split every: 400 MB)
+0264.155 (0) Total entities for the zip file: 74 directories, 340 files (0 skipped as non-modified), 9.3 MB
+0264.158 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0264.161 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0264.164 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0273.102 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip.tmp: size is now: 6.20 MB
+0273.197 (0) Created themes zip (0) - 6369.5 KB in 9.2 s (692.8 KB/s) (sha1: cd9ed2f97f3f7699376b5418389390507c5e72fe, sha256: d75dc4e77edf4c15db6d6cc69a75ee3b0f94c3e335876c0b2da92cf290e1f7aa)
+0273.199 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0273.200 (0) Looking for candidates to back up in: /home/linda06271/public_html/wp-content/uploads
+0273.200 (0) finding files: pum: adding to list (1)
+0273.201 (0) finding files: 2018: adding to list (2)
+0273.201 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0273.385 (0) Total entities for the zip file: 4 directories, 194 files (0 skipped as non-modified), 15.6 MB
+0273.388 (0) Zip: backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0290.808 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip.tmp: size is now: 15.60 MB
+0291.038 (0) Created uploads zip (0) - 15954.9 KB in 17.7 s (903 KB/s) (sha1: d54f0090dbbbd084e0650cd49cca3433c42dba47, sha256: 8e91b2eac25f9a2eb7f6d00f9ec5dea250ec21badc617164e2f2947782daf9c5)
+0291.039 (0) Beginning backup of other directories found in the content directory (index: 0)
+0291.040 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0291.040 (0) Looking for candidates to back up in: /home/linda06271/public_html/wp-content
+0291.041 (0) finding files: themes: skipping: this is the themes directory
+0291.041 (0) finding files: plugins: skipping: this is the plugins directory
+0291.042 (0) finding files: upgrade: skipping: excluded by options
+0291.042 (0) finding files: index.php: adding to list (1)
+0291.043 (0) finding files: uploads: skipping: this is the uploads directory
+0291.043 (0) finding files: cache: skipping: excluded by options
+0291.044 (0) finding files: advanced-cache.php: adding to list (2)
+0291.044 (0) finding files: updraft: skipping: this is the updraft directory
+0291.044 (0) finding files: wp-cache-config.php: adding to list (3)
+0291.210 (0) Total entities for the zip file: 0 directories, 3 files (0 skipped as non-modified), 0 MB
+0291.230 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip.tmp: size is now: 0.00 MB
+0291.233 (0) Created others zip (0) - 3 KB in 0 s (125 KB/s) (sha1: 02d118b5b5489ee022594ca4362319da86c10abd, sha256: 6999d62296f46b7dc877b675aa21fedd591deacc9d3ed8cbd97d37968a90fad6)
+0291.236 (0) Saving backup status to database (elements: 8)
+0291.238 (0) Beginning creation of database dump (WordPress DB)
+0291.239 (0) Testing: /usr/bin/mysqldump
+0291.728 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1203 bytes total)
+0291.731 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0291.737 (0) Table wp_options: Total expected rows (approximate): 353
+0291.791 (0) Table wp_options: Total rows added: 357 in 0.05 seconds
+0291.793 (0) Table wp_options: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_options.table.gz - 212.9 KB)
+0291.795 (0) Table wp_users: Total expected rows (approximate): 0
+0291.797 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0291.797 (0) Table wp_users: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_users.table.gz - 0.6 KB)
+0291.800 (0) Table wp_usermeta: Total expected rows (approximate): 35
+0291.806 (0) Table wp_usermeta: Total rows added: 35 in 0.01 seconds
+0291.807 (0) Table wp_usermeta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_usermeta.table.gz - 16.2 KB)
+0291.809 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0291.820 (0) Table wp_commentmeta: Total rows added: 0 in 0.01 seconds
+0291.821 (0) Table wp_commentmeta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0291.823 (0) Table wp_comments: Total expected rows (approximate): 0
+0291.825 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0291.825 (0) Table wp_comments: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_comments.table.gz - 0.7 KB)
+0291.828 (0) Table wp_links: Total expected rows (approximate): 0
+0291.832 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0291.832 (0) Table wp_links: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_links.table.gz - 0.4 KB)
+0291.835 (0) Table wp_postmeta: Total expected rows (approximate): 735
+0291.844 (0) Table wp_postmeta: Total rows added: 751 in 0.01 seconds
+0291.845 (0) Table wp_postmeta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_postmeta.table.gz - 15.9 KB)
+0291.847 (0) Table wp_posts: Total expected rows (approximate): 292
+0291.866 (0) Table wp_posts: Total rows added: 314 in 0.02 seconds
+0291.867 (0) Table wp_posts: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_posts.table.gz - 42.1 KB)
+0291.870 (0) Table wp_term_relationships: Total expected rows (approximate): 26
+0291.872 (0) Table wp_term_relationships: Total rows added: 25 in 0.00 seconds
+0291.873 (0) Table wp_term_relationships: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0291.876 (0) Table wp_term_taxonomy: Total expected rows (approximate): 3
+0291.877 (0) Table wp_term_taxonomy: Total rows added: 3 in 0.00 seconds
+0291.878 (0) Table wp_term_taxonomy: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0291.881 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0291.890 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0291.890 (0) Table wp_termmeta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_termmeta.table.gz - 0.4 KB)
+0291.893 (0) Table wp_terms: Total expected rows (approximate): 3
+0291.894 (0) Table wp_terms: Total rows added: 3 in 0.00 seconds
+0291.895 (0) Table wp_terms: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_terms.table.gz - 0.4 KB)
+0291.897 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 366
+0291.901 (0) Table wp_yoast_seo_links: Total rows added: 366 in 0.00 seconds
+0291.901 (0) Table wp_yoast_seo_links: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_yoast_seo_links.table.gz - 1.7 KB)
+0291.904 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 46
+0291.905 (0) Table wp_yoast_seo_meta: Total rows added: 47 in 0.00 seconds
+0291.906 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_yoast_seo_meta.table.gz - 0.5 KB)
+0291.908 (0) Table wp_a3_exclude_email_subject: Total expected rows (approximate): 0
+0291.916 (0) Table wp_a3_exclude_email_subject: Total rows added: 0 in 0.01 seconds
+0291.916 (0) Table wp_a3_exclude_email_subject: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_a3_exclude_email_subject.table.gz - 0.3 KB)
+0291.919 (0) Table wp_iowd_images: Total expected rows (approximate): 0
+0291.920 (0) Table wp_iowd_images: Total rows added: 0 in 0.00 seconds
+0291.921 (0) Table wp_iowd_images: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_iowd_images.table.gz - 0.4 KB)
+0291.923 (0) Table wp_nf3_action_meta: Total expected rows (approximate): 310
+0291.927 (0) Table wp_nf3_action_meta: Total rows added: 317 in 0.00 seconds
+0291.927 (0) Table wp_nf3_action_meta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_action_meta.table.gz - 3.9 KB)
+0291.930 (0) Table wp_nf3_actions: Total expected rows (approximate): 14
+0291.932 (0) Table wp_nf3_actions: Total rows added: 14 in 0.00 seconds
+0291.932 (0) Table wp_nf3_actions: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_actions.table.gz - 0.6 KB)
+0291.935 (0) Table wp_nf3_field_meta: Total expected rows (approximate): 2310
+0291.957 (0) Table wp_nf3_field_meta: Total rows added: 2291 in 0.02 seconds
+0291.958 (0) Table wp_nf3_field_meta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_field_meta.table.gz - 25.3 KB)
+0291.960 (0) Table wp_nf3_fields: Total expected rows (approximate): 104
+0291.963 (0) Table wp_nf3_fields: Total rows added: 101 in 0.00 seconds
+0291.964 (0) Table wp_nf3_fields: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_fields.table.gz - 3.9 KB)
+0291.966 (0) Table wp_nf3_form_meta: Total expected rows (approximate): 232
+0291.969 (0) Table wp_nf3_form_meta: Total rows added: 234 in 0.00 seconds
+0291.970 (0) Table wp_nf3_form_meta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_form_meta.table.gz - 4.1 KB)
+0291.972 (0) Table wp_nf3_forms: Total expected rows (approximate): 4
+0291.974 (0) Table wp_nf3_forms: Total rows added: 4 in 0.00 seconds
+0291.975 (0) Table wp_nf3_forms: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_forms.table.gz - 0.5 KB)
+0291.977 (0) Table wp_nf3_object_meta: Total expected rows (approximate): 0
+0291.979 (0) Table wp_nf3_object_meta: Total rows added: 0 in 0.00 seconds
+0291.979 (0) Table wp_nf3_object_meta: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_object_meta.table.gz - 0.3 KB)
+0291.982 (0) Table wp_nf3_objects: Total expected rows (approximate): 0
+0291.983 (0) Table wp_nf3_objects: Total rows added: 0 in 0.00 seconds
+0291.984 (0) Table wp_nf3_objects: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_objects.table.gz - 0.3 KB)
+0291.986 (0) Table wp_nf3_relationships: Total expected rows (approximate): 0
+0291.988 (0) Table wp_nf3_relationships: Total rows added: 0 in 0.00 seconds
+0291.989 (0) Table wp_nf3_relationships: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_relationships.table.gz - 0.4 KB)
+0291.991 (0) Table wp_nf3_upgrades: Total expected rows (approximate): 0
+0292.001 (0) Table wp_nf3_upgrades: Total rows added: 0 in 0.01 seconds
+0292.001 (0) Table wp_nf3_upgrades: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_upgrades.table.gz - 0.3 KB)
+0292.004 (0) Table wp_rich_web_photo_slider_instal: Total expected rows (approximate): 3
+0292.016 (0) Table wp_rich_web_photo_slider_instal: Total rows added: 3 in 0.01 seconds
+0292.017 (0) Table wp_rich_web_photo_slider_instal: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_photo_slider_instal.table.gz - 0.6 KB)
+0292.019 (0) Table wp_rich_web_photo_slider_manager: Total expected rows (approximate): 0
+0292.023 (0) Table wp_rich_web_photo_slider_manager: Total rows added: 1 in 0.00 seconds
+0292.024 (0) Table wp_rich_web_photo_slider_manager: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_photo_slider_manager.table.gz - 0.4 KB)
+0292.026 (0) Table wp_rich_web_slider_effect1: Total expected rows (approximate): 2
+0292.029 (0) Table wp_rich_web_slider_effect1: Total rows added: 2 in 0.00 seconds
+0292.029 (0) Table wp_rich_web_slider_effect1: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect1.table.gz - 0.7 KB)
+0292.032 (0) Table wp_rich_web_slider_effect10: Total expected rows (approximate): 2
+0292.040 (0) Table wp_rich_web_slider_effect10: Total rows added: 2 in 0.01 seconds
+0292.040 (0) Table wp_rich_web_slider_effect10: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect10.table.gz - 0.7 KB)
+0292.043 (0) Table wp_rich_web_slider_effect10_loader: Total expected rows (approximate): 2
+0292.045 (0) Table wp_rich_web_slider_effect10_loader: Total rows added: 2 in 0.00 seconds
+0292.045 (0) Table wp_rich_web_slider_effect10_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect10_loader.table.gz - 0.6 KB)
+0292.048 (0) Table wp_rich_web_slider_effect1_loader: Total expected rows (approximate): 2
+0292.050 (0) Table wp_rich_web_slider_effect1_loader: Total rows added: 2 in 0.00 seconds
+0292.051 (0) Table wp_rich_web_slider_effect1_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect1_loader.table.gz - 0.6 KB)
+0292.064 (0) Table wp_rich_web_slider_effect2: Total expected rows (approximate): 2
+0292.067 (0) Table wp_rich_web_slider_effect2: Total rows added: 2 in 0.00 seconds
+0292.067 (0) Table wp_rich_web_slider_effect2: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect2.table.gz - 0.7 KB)
+0292.081 (0) Table wp_rich_web_slider_effect2_loader: Total expected rows (approximate): 2
+0292.083 (0) Table wp_rich_web_slider_effect2_loader: Total rows added: 2 in 0.00 seconds
+0292.084 (0) Table wp_rich_web_slider_effect2_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect2_loader.table.gz - 0.6 KB)
+0292.087 (0) Table wp_rich_web_slider_effect3: Total expected rows (approximate): 2
+0292.090 (0) Table wp_rich_web_slider_effect3: Total rows added: 2 in 0.00 seconds
+0292.090 (0) Table wp_rich_web_slider_effect3: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect3.table.gz - 0.8 KB)
+0292.093 (0) Table wp_rich_web_slider_effect3_loader: Total expected rows (approximate): 2
+0292.105 (0) Table wp_rich_web_slider_effect3_loader: Total rows added: 2 in 0.01 seconds
+0292.106 (0) Table wp_rich_web_slider_effect3_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect3_loader.table.gz - 0.6 KB)
+0292.109 (0) Table wp_rich_web_slider_effect4: Total expected rows (approximate): 2
+0292.111 (0) Table wp_rich_web_slider_effect4: Total rows added: 2 in 0.00 seconds
+0292.112 (0) Table wp_rich_web_slider_effect4: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect4.table.gz - 0.6 KB)
+0292.115 (0) Table wp_rich_web_slider_effect4_loader: Total expected rows (approximate): 2
+0292.126 (0) Table wp_rich_web_slider_effect4_loader: Total rows added: 2 in 0.01 seconds
+0292.127 (0) Table wp_rich_web_slider_effect4_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect4_loader.table.gz - 0.6 KB)
+0292.130 (0) Table wp_rich_web_slider_effect5: Total expected rows (approximate): 2
+0292.133 (0) Table wp_rich_web_slider_effect5: Total rows added: 2 in 0.00 seconds
+0292.134 (0) Table wp_rich_web_slider_effect5: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect5.table.gz - 0.9 KB)
+0292.136 (0) Table wp_rich_web_slider_effect5_loader: Total expected rows (approximate): 2
+0292.139 (0) Table wp_rich_web_slider_effect5_loader: Total rows added: 2 in 0.00 seconds
+0292.139 (0) Table wp_rich_web_slider_effect5_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect5_loader.table.gz - 0.6 KB)
+0292.142 (0) Table wp_rich_web_slider_effect6: Total expected rows (approximate): 2
+0292.147 (0) Table wp_rich_web_slider_effect6: Total rows added: 2 in 0.00 seconds
+0292.147 (0) Table wp_rich_web_slider_effect6: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect6.table.gz - 0.7 KB)
+0292.150 (0) Table wp_rich_web_slider_effect6_loader: Total expected rows (approximate): 2
+0292.152 (0) Table wp_rich_web_slider_effect6_loader: Total rows added: 2 in 0.00 seconds
+0292.153 (0) Table wp_rich_web_slider_effect6_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect6_loader.table.gz - 0.6 KB)
+0292.156 (0) Table wp_rich_web_slider_effect7: Total expected rows (approximate): 2
+0292.159 (0) Table wp_rich_web_slider_effect7: Total rows added: 2 in 0.00 seconds
+0292.159 (0) Table wp_rich_web_slider_effect7: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect7.table.gz - 0.8 KB)
+0292.162 (0) Table wp_rich_web_slider_effect7_loader: Total expected rows (approximate): 2
+0292.164 (0) Table wp_rich_web_slider_effect7_loader: Total rows added: 2 in 0.00 seconds
+0292.165 (0) Table wp_rich_web_slider_effect7_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect7_loader.table.gz - 0.6 KB)
+0292.168 (0) Table wp_rich_web_slider_effect8: Total expected rows (approximate): 2
+0292.171 (0) Table wp_rich_web_slider_effect8: Total rows added: 2 in 0.00 seconds
+0292.172 (0) Table wp_rich_web_slider_effect8: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect8.table.gz - 0.8 KB)
+0292.174 (0) Table wp_rich_web_slider_effect8_loader: Total expected rows (approximate): 2
+0292.177 (0) Table wp_rich_web_slider_effect8_loader: Total rows added: 2 in 0.00 seconds
+0292.177 (0) Table wp_rich_web_slider_effect8_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect8_loader.table.gz - 0.6 KB)
+0292.180 (0) Table wp_rich_web_slider_effect9: Total expected rows (approximate): 2
+0292.192 (0) Table wp_rich_web_slider_effect9: Total rows added: 2 in 0.01 seconds
+0292.193 (0) Table wp_rich_web_slider_effect9: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect9.table.gz - 0.6 KB)
+0292.196 (0) Table wp_rich_web_slider_effect9_loader: Total expected rows (approximate): 2
+0292.199 (0) Table wp_rich_web_slider_effect9_loader: Total rows added: 2 in 0.00 seconds
+0292.200 (0) Table wp_rich_web_slider_effect9_loader: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect9_loader.table.gz - 0.6 KB)
+0292.202 (0) Table wp_rich_web_slider_effects_data: Total expected rows (approximate): 20
+0292.204 (0) Table wp_rich_web_slider_effects_data: Total rows added: 20 in 0.00 seconds
+0292.205 (0) Table wp_rich_web_slider_effects_data: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effects_data.table.gz - 0.6 KB)
+0292.208 (0) Table wp_rich_web_slider_font_family: Total expected rows (approximate): 40
+0292.210 (0) Table wp_rich_web_slider_font_family: Total rows added: 40 in 0.00 seconds
+0292.211 (0) Table wp_rich_web_slider_font_family: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_font_family.table.gz - 0.7 KB)
+0292.214 (0) Table wp_rich_web_slider_id: Total expected rows (approximate): 0
+0292.216 (0) Table wp_rich_web_slider_id: Total rows added: 1 in 0.00 seconds
+0292.216 (0) Table wp_rich_web_slider_id: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_id.table.gz - 0.3 KB)
+0292.219 (0) Table wp_smush_dir_images: Total expected rows (approximate): 0
+0292.221 (0) Table wp_smush_dir_images: Total rows added: 0 in 0.00 seconds
+0292.221 (0) Table wp_smush_dir_images: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_smush_dir_images.table.gz - 0.4 KB)
+0292.224 (0) Table wp_wdslayer: Total expected rows (approximate): 0
+0292.226 (0) Table wp_wdslayer: Total rows added: 0 in 0.00 seconds
+0292.227 (0) Table wp_wdslayer: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdslayer.table.gz - 0.7 KB)
+0292.230 (0) Table wp_wdsslide: Total expected rows (approximate): 3
+0292.232 (0) Table wp_wdsslide: Total rows added: 3 in 0.00 seconds
+0292.233 (0) Table wp_wdsslide: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdsslide.table.gz - 0.5 KB)
+0292.236 (0) Table wp_wdsslider: Total expected rows (approximate): 0
+0292.240 (0) Table wp_wdsslider: Total rows added: 1 in 0.00 seconds
+0292.241 (0) Table wp_wdsslider: finishing file (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdsslider.table.gz - 1.5 KB)
+0292.243 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_options.table.gz (1/55): adding to final database dump
+0292.333 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_users.table.gz (2/55): adding to final database dump
+0292.345 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_usermeta.table.gz (3/55): adding to final database dump
+0292.352 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_commentmeta.table.gz (4/55): adding to final database dump
+0292.356 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_comments.table.gz (5/55): adding to final database dump
+0292.358 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_links.table.gz (6/55): adding to final database dump
+0292.358 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_postmeta.table.gz (7/55): adding to final database dump
+0292.364 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_posts.table.gz (8/55): adding to final database dump
+0292.383 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_term_relationships.table.gz (9/55): adding to final database dump
+0292.385 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_term_taxonomy.table.gz (10/55): adding to final database dump
+0292.396 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_termmeta.table.gz (11/55): adding to final database dump
+0292.397 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_terms.table.gz (12/55): adding to final database dump
+0292.404 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_yoast_seo_links.table.gz (13/55): adding to final database dump
+0292.405 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_yoast_seo_meta.table.gz (14/55): adding to final database dump
+0292.405 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_a3_exclude_email_subject.table.gz (15/55): adding to final database dump
+0292.406 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_iowd_images.table.gz (16/55): adding to final database dump
+0292.407 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_action_meta.table.gz (17/55): adding to final database dump
+0292.409 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_actions.table.gz (18/55): adding to final database dump
+0292.409 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_field_meta.table.gz (19/55): adding to final database dump
+0292.419 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_fields.table.gz (20/55): adding to final database dump
+0292.432 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_form_meta.table.gz (21/55): adding to final database dump
+0292.434 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_forms.table.gz (22/55): adding to final database dump
+0292.434 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_object_meta.table.gz (23/55): adding to final database dump
+0292.435 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_objects.table.gz (24/55): adding to final database dump
+0292.435 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_relationships.table.gz (25/55): adding to final database dump
+0292.436 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_nf3_upgrades.table.gz (26/55): adding to final database dump
+0292.436 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_photo_slider_instal.table.gz (27/55): adding to final database dump
+0292.437 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_photo_slider_manager.table.gz (28/55): adding to final database dump
+0292.438 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect1.table.gz (29/55): adding to final database dump
+0292.438 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect10.table.gz (30/55): adding to final database dump
+0292.446 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect10_loader.table.gz (31/55): adding to final database dump
+0292.447 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect1_loader.table.gz (32/55): adding to final database dump
+0292.447 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect2.table.gz (33/55): adding to final database dump
+0292.448 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect2_loader.table.gz (34/55): adding to final database dump
+0292.449 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect3.table.gz (35/55): adding to final database dump
+0292.449 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect3_loader.table.gz (36/55): adding to final database dump
+0292.450 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect4.table.gz (37/55): adding to final database dump
+0292.451 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect4_loader.table.gz (38/55): adding to final database dump
+0292.451 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect5.table.gz (39/55): adding to final database dump
+0292.452 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect5_loader.table.gz (40/55): adding to final database dump
+0292.453 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect6.table.gz (41/55): adding to final database dump
+0292.453 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect6_loader.table.gz (42/55): adding to final database dump
+0292.454 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect7.table.gz (43/55): adding to final database dump
+0292.455 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect7_loader.table.gz (44/55): adding to final database dump
+0292.455 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect8.table.gz (45/55): adding to final database dump
+0292.456 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect8_loader.table.gz (46/55): adding to final database dump
+0292.457 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect9.table.gz (47/55): adding to final database dump
+0292.457 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effect9_loader.table.gz (48/55): adding to final database dump
+0292.458 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_effects_data.table.gz (49/55): adding to final database dump
+0292.459 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_font_family.table.gz (50/55): adding to final database dump
+0292.459 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_rich_web_slider_id.table.gz (51/55): adding to final database dump
+0292.460 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_smush_dir_images.table.gz (52/55): adding to final database dump
+0292.460 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdslayer.table.gz (53/55): adding to final database dump
+0292.461 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdsslide.table.gz (54/55): adding to final database dump
+0292.462 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db-table-wp_wdsslider.table.gz (55/55): adding to final database dump
+0292.462 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: finished writing out complete database file (304 KB)
+0292.479 (0) Total database tables backed up: 55 (backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz, size: 343100, sha256)
+0292.483 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0292.484 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0292.484 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0292.485 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0292.485 (0) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0292.486 (0) Saving backup history. Total backup size: 58.7 MB
+0292.488 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0292.496 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0292.497 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+0292.498 (0) You do not appear to be authenticated with Dropbox (1)
+0292.498 (0) An error condition has occurred for the first time during this job
+0292.499 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0292.500 (0) Number of backup sets in history: 1; groups (db): 1
+0292.501 (0) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0292.501 (0) This backup set is the backup set just made, so will not be deleted.
+0292.501 (0) Number of backup sets in history: 1; groups (files): 1
+0292.502 (0) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0292.502 (0) This backup set is the backup set just made, so will not be deleted.
+0292.502 (0) This backup set is the backup set just made, so will not be deleted.
+0292.502 (0) This backup set is the backup set just made, so will not be deleted.
+0292.502 (0) This backup set is the backup set just made, so will not be deleted.
+0292.502 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0292.503 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0292.504 (0) Resume backup (df0b15d182e7, 0): finish run
+0292.506 (0) Decremented the semaphore (fd) by 1
+0292.507 (0) Semaphore (fd) unlocked
+0292.507 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0292.509 (0) Rescheduling resumption 1: moving to 120 seconds from now (1529014464)
+0292.510 (0) No email will/can be sent - the user has not configured an email address.
+0292.510 (0) The backup has not finished; a resumption is scheduled
+0423.580 (1) Opened log file at time: Thu, 14 Jun 2018 22:14:35 +0000 on https://higherpurposefellowship.com
+0423.581 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+0423.749 (1) Free space on disk containing Updraft's temporary directory: 952795 MB
+0423.752 (1) Backup run: resumption=1, nonce=df0b15d182e7, begun at=1529014051 (424s ago), job type=backup, previous check-in=292.2s
+0423.753 (1) Scheduling a resumption (2) after 345 seconds (1529014820) in case this run gets aborted
+0423.762 (1) Checking if we have a zip executable available
+0423.764 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0423.764 (1) Creation of backups of directories: already finished
+0423.765 (1) Saving backup status to database (elements: 8)
+0423.770 (1) Database dump (WordPress DB): Creation was completed already
+0423.774 (1) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0423.774 (1) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0423.775 (1) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0423.775 (1) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0423.776 (1) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0423.777 (1) Saving backup history. Total backup size: 58.7 MB
+0423.780 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0423.781 (1) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0423.782 (1) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+0423.783 (1) You do not appear to be authenticated with Dropbox (1)
+0423.783 (1) An error condition has occurred for the first time during this job
+0423.785 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0423.785 (1) Number of backup sets in history: 1; groups (db): 1
+0423.786 (1) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0423.787 (1) This backup set is the backup set just made, so will not be deleted.
+0423.787 (1) Number of backup sets in history: 1; groups (files): 1
+0423.787 (1) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0423.787 (1) This backup set is the backup set just made, so will not be deleted.
+0423.788 (1) This backup set is the backup set just made, so will not be deleted.
+0423.788 (1) This backup set is the backup set just made, so will not be deleted.
+0423.788 (1) This backup set is the backup set just made, so will not be deleted.
+0423.788 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0423.788 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0423.790 (1) Resume backup (df0b15d182e7, 1): finish run
+0423.791 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0423.792 (1) No email will/can be sent - the user has not configured an email address.
+0423.793 (1) The backup has not finished; a resumption is scheduled
+0827.942 (2) Opened log file at time: Thu, 14 Jun 2018 22:21:19 +0000 on https://higherpurposefellowship.com
+0827.943 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+0828.103 (2) Free space on disk containing Updraft's temporary directory: 952792.3 MB
+0828.105 (2) Backup run: resumption=2, nonce=df0b15d182e7, begun at=1529014051 (828s ago), job type=backup
+0828.106 (2) Scheduling a resumption (3) after 345 seconds (1529015224) in case this run gets aborted
+0828.115 (2) Checking if we have a zip executable available
+0828.116 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0828.116 (2) Creation of backups of directories: already finished
+0828.117 (2) Saving backup status to database (elements: 8)
+0828.121 (2) Database dump (WordPress DB): Creation was completed already
+0828.124 (2) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0828.124 (2) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0828.125 (2) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0828.125 (2) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+0828.125 (2) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0828.126 (2) Saving backup history. Total backup size: 58.7 MB
+0828.127 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0828.129 (2) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0828.129 (2) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+0828.129 (2) You do not appear to be authenticated with Dropbox (1)
+0828.130 (2) An error condition has occurred for the first time during this job
+0828.131 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0828.132 (2) Number of backup sets in history: 1; groups (db): 1
+0828.132 (2) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0828.133 (2) This backup set is the backup set just made, so will not be deleted.
+0828.133 (2) Number of backup sets in history: 1; groups (files): 1
+0828.133 (2) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+0828.133 (2) This backup set is the backup set just made, so will not be deleted.
+0828.133 (2) This backup set is the backup set just made, so will not be deleted.
+0828.133 (2) This backup set is the backup set just made, so will not be deleted.
+0828.134 (2) This backup set is the backup set just made, so will not be deleted.
+0828.134 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0828.134 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0828.135 (2) Resume backup (df0b15d182e7, 2): finish run
+0828.136 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0828.137 (2) No email will/can be sent - the user has not configured an email address.
+0828.137 (2) The backup has not finished; a resumption is scheduled
+1182.348 (3) Opened log file at time: Thu, 14 Jun 2018 22:27:14 +0000 on https://higherpurposefellowship.com
+1182.348 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+1182.511 (3) Free space on disk containing Updraft's temporary directory: 952790.1 MB
+1182.513 (3) Backup run: resumption=3, nonce=df0b15d182e7, begun at=1529014051 (1183s ago), job type=backup
+1182.514 (3) Scheduling a resumption (4) after 345 seconds (1529015579) in case this run gets aborted
+1182.524 (3) Checking if we have a zip executable available
+1182.524 (3) Zip engine: found/will use a binary zip: /usr/bin/zip
+1182.524 (3) Creation of backups of directories: already finished
+1182.525 (3) Saving backup status to database (elements: 8)
+1182.529 (3) Database dump (WordPress DB): Creation was completed already
+1182.532 (3) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1182.533 (3) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1182.533 (3) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1182.534 (3) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+1182.534 (3) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+1182.535 (3) Saving backup history. Total backup size: 58.7 MB
+1182.536 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1182.537 (3) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1182.538 (3) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+1182.538 (3) You do not appear to be authenticated with Dropbox (1)
+1182.539 (3) An error condition has occurred for the first time during this job
+1182.540 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1182.541 (3) Number of backup sets in history: 1; groups (db): 1
+1182.541 (3) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1182.542 (3) This backup set is the backup set just made, so will not be deleted.
+1182.542 (3) Number of backup sets in history: 1; groups (files): 1
+1182.542 (3) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1182.542 (3) This backup set is the backup set just made, so will not be deleted.
+1182.543 (3) This backup set is the backup set just made, so will not be deleted.
+1182.543 (3) This backup set is the backup set just made, so will not be deleted.
+1182.543 (3) This backup set is the backup set just made, so will not be deleted.
+1182.543 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1182.543 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1182.545 (3) Resume backup (df0b15d182e7, 3): finish run
+1182.545 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1182.546 (3) No email will/can be sent - the user has not configured an email address.
+1182.547 (3) The backup has not finished; a resumption is scheduled
+1548.938 (4) Opened log file at time: Thu, 14 Jun 2018 22:33:20 +0000 on https://higherpurposefellowship.com
+1548.938 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+1549.105 (4) Free space on disk containing Updraft's temporary directory: 952787.4 MB
+1549.107 (4) Backup run: resumption=4, nonce=df0b15d182e7, begun at=1529014051 (1549s ago), job type=backup
+1549.108 (4) Scheduling a resumption (5) after 345 seconds (1529015945) in case this run gets aborted
+1549.118 (4) Checking if we have a zip executable available
+1549.118 (4) Zip engine: found/will use a binary zip: /usr/bin/zip
+1549.119 (4) Creation of backups of directories: already finished
+1549.119 (4) Saving backup status to database (elements: 8)
+1549.124 (4) Database dump (WordPress DB): Creation was completed already
+1549.127 (4) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1549.128 (4) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1549.128 (4) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1549.129 (4) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+1549.129 (4) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+1549.130 (4) Saving backup history. Total backup size: 58.7 MB
+1549.132 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1549.134 (4) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1549.134 (4) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+1549.135 (4) You do not appear to be authenticated with Dropbox (1)
+1549.136 (4) An error condition has occurred for the first time during this job
+1549.137 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1549.138 (4) Number of backup sets in history: 1; groups (db): 1
+1549.138 (4) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1549.139 (4) This backup set is the backup set just made, so will not be deleted.
+1549.139 (4) Number of backup sets in history: 1; groups (files): 1
+1549.139 (4) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1549.139 (4) This backup set is the backup set just made, so will not be deleted.
+1549.140 (4) This backup set is the backup set just made, so will not be deleted.
+1549.140 (4) This backup set is the backup set just made, so will not be deleted.
+1549.140 (4) This backup set is the backup set just made, so will not be deleted.
+1549.140 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1549.141 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1549.142 (4) Resume backup (df0b15d182e7, 4): finish run
+1549.143 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1549.144 (4) No email will/can be sent - the user has not configured an email address.
+1549.145 (4) The backup has not finished; a resumption is scheduled
+1913.549 (5) Opened log file at time: Thu, 14 Jun 2018 22:39:25 +0000 on https://higherpurposefellowship.com
+1913.550 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+1913.713 (5) Free space on disk containing Updraft's temporary directory: 952786.2 MB
+1913.715 (5) Backup run: resumption=5, nonce=df0b15d182e7, begun at=1529014051 (1914s ago), job type=backup
+1913.716 (5) Scheduling a resumption (6) after 345 seconds (1529016310) in case this run gets aborted
+1913.725 (5) Checking if we have a zip executable available
+1913.726 (5) Zip engine: found/will use a binary zip: /usr/bin/zip
+1913.726 (5) Creation of backups of directories: already finished
+1913.727 (5) Saving backup status to database (elements: 8)
+1913.731 (5) Database dump (WordPress DB): Creation was completed already
+1913.734 (5) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1913.735 (5) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1913.735 (5) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1913.736 (5) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+1913.736 (5) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+1913.737 (5) Saving backup history. Total backup size: 58.7 MB
+1913.739 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1913.740 (5) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+1913.740 (5) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+1913.741 (5) You do not appear to be authenticated with Dropbox (1)
+1913.741 (5) An error condition has occurred for the first time during this job
+1913.743 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1913.743 (5) Number of backup sets in history: 1; groups (db): 1
+1913.744 (5) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1913.744 (5) This backup set is the backup set just made, so will not be deleted.
+1913.744 (5) Number of backup sets in history: 1; groups (files): 1
+1913.746 (5) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+1913.746 (5) This backup set is the backup set just made, so will not be deleted.
+1913.746 (5) This backup set is the backup set just made, so will not be deleted.
+1913.746 (5) This backup set is the backup set just made, so will not be deleted.
+1913.747 (5) This backup set is the backup set just made, so will not be deleted.
+1913.747 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1913.747 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1913.749 (5) Resume backup (df0b15d182e7, 5): finish run
+1913.749 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1913.750 (5) No email will/can be sent - the user has not configured an email address.
+1913.751 (5) The backup has not finished; a resumption is scheduled
+2396.258 (6) Opened log file at time: Thu, 14 Jun 2018 22:47:27 +0000 on https://higherpurposefellowship.com
+2396.259 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+2396.455 (6) Free space on disk containing Updraft's temporary directory: 952782.6 MB
+2396.457 (6) Backup run: resumption=6, nonce=df0b15d182e7, begun at=1529014051 (2397s ago), job type=backup
+2396.458 (6) Scheduling a resumption (7) after 345 seconds (1529016793) in case this run gets aborted
+2396.467 (6) Checking if we have a zip executable available
+2396.468 (6) Zip engine: found/will use a binary zip: /usr/bin/zip
+2396.468 (6) Creation of backups of directories: already finished
+2396.470 (6) Saving backup status to database (elements: 8)
+2396.477 (6) Database dump (WordPress DB): Creation was completed already
+2396.481 (6) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2396.481 (6) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2396.482 (6) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2396.482 (6) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+2396.483 (6) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+2396.483 (6) Saving backup history. Total backup size: 58.7 MB
+2396.485 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2396.487 (6) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+2396.487 (6) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+2396.488 (6) You do not appear to be authenticated with Dropbox (1)
+2396.488 (6) An error condition has occurred for the first time during this job
+2396.490 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2396.491 (6) Number of backup sets in history: 1; groups (db): 1
+2396.491 (6) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+2396.492 (6) This backup set is the backup set just made, so will not be deleted.
+2396.492 (6) Number of backup sets in history: 1; groups (files): 1
+2396.493 (6) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+2396.493 (6) This backup set is the backup set just made, so will not be deleted.
+2396.493 (6) This backup set is the backup set just made, so will not be deleted.
+2396.493 (6) This backup set is the backup set just made, so will not be deleted.
+2396.493 (6) This backup set is the backup set just made, so will not be deleted.
+2396.493 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2396.494 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2396.496 (6) Resume backup (df0b15d182e7, 6): finish run
+2396.496 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2396.498 (6) No email will/can be sent - the user has not configured an email address.
+2396.498 (6) The backup has not finished; a resumption is scheduled
+3016.641 (7) Opened log file at time: Thu, 14 Jun 2018 22:57:48 +0000 on https://higherpurposefellowship.com
+3016.642 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+3016.804 (7) Free space on disk containing Updraft's temporary directory: 952781.8 MB
+3016.806 (7) Backup run: resumption=7, nonce=df0b15d182e7, begun at=1529014051 (3017s ago), job type=backup
+3016.807 (7) Scheduling a resumption (8) after 345 seconds (1529017413) in case this run gets aborted
+3016.817 (7) Checking if we have a zip executable available
+3016.817 (7) Zip engine: found/will use a binary zip: /usr/bin/zip
+3016.818 (7) Creation of backups of directories: already finished
+3016.818 (7) Saving backup status to database (elements: 8)
+3016.823 (7) Database dump (WordPress DB): Creation was completed already
+3016.826 (7) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3016.827 (7) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3016.827 (7) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3016.828 (7) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+3016.828 (7) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+3016.829 (7) Saving backup history. Total backup size: 58.7 MB
+3016.830 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+3016.831 (7) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+3016.832 (7) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+3016.833 (7) You do not appear to be authenticated with Dropbox (1)
+3016.833 (7) An error condition has occurred for the first time during this job
+3016.834 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3016.835 (7) Number of backup sets in history: 1; groups (db): 1
+3016.836 (7) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+3016.836 (7) This backup set is the backup set just made, so will not be deleted.
+3016.836 (7) Number of backup sets in history: 1; groups (files): 1
+3016.837 (7) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+3016.837 (7) This backup set is the backup set just made, so will not be deleted.
+3016.837 (7) This backup set is the backup set just made, so will not be deleted.
+3016.837 (7) This backup set is the backup set just made, so will not be deleted.
+3016.837 (7) This backup set is the backup set just made, so will not be deleted.
+3016.837 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+3016.838 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+3016.839 (7) Resume backup (df0b15d182e7, 7): finish run
+3016.840 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3016.841 (7) No email will/can be sent - the user has not configured an email address.
+3016.842 (7) The backup has not finished; a resumption is scheduled
+5037.989 (8) Opened log file at time: Thu, 14 Jun 2018 23:31:29 +0000 on https://higherpurposefellowship.com
+5037.990 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+5038.160 (8) Free space on disk containing Updraft's temporary directory: 952727.5 MB
+5038.162 (8) Backup run: resumption=8, nonce=df0b15d182e7, begun at=1529014051 (5038s ago), job type=backup
+5038.162 (8) Long time past since expected resumption time: approx expected=1529017413.3, now=1529019089.7, diff=1676.3
+5038.163 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+5038.165 (8) Scheduling a resumption (9) after 345 seconds (1529019434) in case this run gets aborted
+5038.174 (8) Checking if we have a zip executable available
+5038.174 (8) Zip engine: found/will use a binary zip: /usr/bin/zip
+5038.175 (8) Creation of backups of directories: already finished
+5038.175 (8) Saving backup status to database (elements: 8)
+5038.179 (8) Database dump (WordPress DB): Creation was completed already
+5038.183 (8) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5038.183 (8) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5038.184 (8) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5038.184 (8) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+5038.185 (8) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+5038.185 (8) Saving backup history. Total backup size: 58.7 MB
+5038.187 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+5038.188 (8) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+5038.189 (8) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+5038.189 (8) You do not appear to be authenticated with Dropbox (1)
+5038.190 (8) An error condition has occurred for the first time during this job
+5038.191 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5038.192 (8) Number of backup sets in history: 1; groups (db): 1
+5038.192 (8) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+5038.193 (8) This backup set is the backup set just made, so will not be deleted.
+5038.193 (8) Number of backup sets in history: 1; groups (files): 1
+5038.193 (8) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+5038.193 (8) This backup set is the backup set just made, so will not be deleted.
+5038.193 (8) This backup set is the backup set just made, so will not be deleted.
+5038.194 (8) This backup set is the backup set just made, so will not be deleted.
+5038.194 (8) This backup set is the backup set just made, so will not be deleted.
+5038.194 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+5038.194 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+5038.196 (8) Resume backup (df0b15d182e7, 8): finish run
+5038.196 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5038.198 (8) No email will/can be sent - the user has not configured an email address.
+5038.198 (8) The backup has not finished; a resumption is scheduled
+5536.506 (9) Opened log file at time: Thu, 14 Jun 2018 23:39:48 +0000 on https://higherpurposefellowship.com
+5536.506 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.5 (litespeed, Linux p3plcpnl0484.prod.phx3.secureserver.net 2.6.32-773.26.1.lve1.4.46.el6.x86_64 #1 SMP Tue Dec 5 18:55:41 EST 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 34.2M | 36.3M) multisite: N openssl: OpenSSL 1.0.2k-fips  26 Jan 2017 mcrypt: N LANG:  ZipArchive::addFile: N
+5536.670 (9) Free space on disk containing Updraft's temporary directory: 952682.7 MB
+5536.672 (9) Backup run: resumption=9, nonce=df0b15d182e7, begun at=1529014051 (5537s ago), job type=backup
+5536.673 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+5536.682 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+5536.683 (9) Creation of backups of directories: already finished
+5536.684 (9) Saving backup status to database (elements: 8)
+5536.688 (9) Database dump (WordPress DB): Creation was completed already
+5536.691 (9) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+5536.692 (9) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+5536.692 (9) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+5536.693 (9) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-others.zip: others: This file has not yet been successfully uploaded: will queue
+5536.693 (9) backup_2018-06-14-2207_Higher_Purpose_Fellowship_df0b15d182e7-db.gz: db: This file has not yet been successfully uploaded: will queue
+5536.693 (9) Saving backup history. Total backup size: 58.7 MB
+5536.695 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+5536.696 (9) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+5536.697 (9) Beginning dispatch of backup to remote (dropbox) (instance identifier s-49bc1fb1e2745b12f9b12dd20ba541bb)
+5536.697 (9) You do not appear to be authenticated with Dropbox (1)
+5536.698 (9) An error condition has occurred for the first time during this job
+5536.699 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+5536.700 (9) Number of backup sets in history: 1; groups (db): 1
+5536.700 (9) Examining (for databases) backup set with group_id=0, nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+5536.701 (9) This backup set is the backup set just made, so will not be deleted.
+5536.701 (9) Number of backup sets in history: 1; groups (files): 1
+5536.701 (9) Examining (for files) backup set with nonce=df0b15d182e7, datestamp=1529014051 (Jun 14 2018 22:07:31)
+5536.701 (9) This backup set is the backup set just made, so will not be deleted.
+5536.701 (9) This backup set is the backup set just made, so will not be deleted.
+5536.701 (9) This backup set is the backup set just made, so will not be deleted.
+5536.702 (9) This backup set is the backup set just made, so will not be deleted.
+5536.702 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+5536.702 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+5536.703 (9) Resume backup (df0b15d182e7, 9): finish run
+5536.704 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+5536.706 (9) No email will/can be sent - the user has not configured an email address.
+5536.706 (9) The backup attempt has finished, apparently unsuccessfully
