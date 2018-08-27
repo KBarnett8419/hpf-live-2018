@@ -1203,6 +1203,7 @@ nav bar css
 header#masthead {
   background: #1d3f7c;
   padding: 18px 0;
+  display: block;
 }
 
 .site-branding p a,
@@ -2931,6 +2932,12 @@ div.wrapper.page-inner-title {
   display: block;
 }
 
+/*====LEADERSHIP CUSTOM POST=======*/
+.leadership-template-default .wp-post-image {
+  float: left;
+  margin: 0 2% 2% 2%;
+}
+
 /*
 .event-container {
 margin-left: 35%;
@@ -2997,6 +3004,10 @@ responsive
 }
 
 @media screen and (max-width:768px) {
+  body.home header#masthead {
+    display: none;
+  }
+
   .carousel-caption h1 a {
     font-size: 34px;
   }
@@ -3077,6 +3088,39 @@ responsive
   .desktop-slider {
     display: block;
   }
+
+  /*=====WPR MENU====================*/
+  #wprmenu_bar .bar_logo {
+    margin: 0 0 4px 0;
+    padding: 0px 0px 4px 0px;
+    width: auto;
+    height: 60px;
+  }
+
+  #wprmenu_bar {
+    height: 70px !important;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  #wprmenu_bar div.hamburger {
+    margin-top: 7px;
+  }
+
+/* didn't work */
+  .admin-bar #wprmenu_menu_ul {
+    margin-top: 60px !important;
+  }
+
+/* this works */
+  #mg-wprm-wrap {
+    padding-top: 27px;
+  }
+
+/*  .admin-bar #mg-wprm-wrap.cbp-spmenu-left, .admin-bar #mg-wprm-wrap.cbp-spmenu-right {
+    top: 130px;
+  }*/
+
 }
 
 @media screen and (max-width:1100px) {
@@ -3146,9 +3190,9 @@ responsive
     overflow-x: hidden;
   }
   ul#primary-menu {
-    /*height: 668px;*/
-    height: 640px;
+    height: 668px;
   }
+
   .main-navigation ul ul {
     background: rgba(0, 0, 0, 0);
     box-shadow: none;
@@ -3247,6 +3291,7 @@ responsive
     background: #1d3f7c;
     padding: 2px 0 !important;
     /*margin-top: -10px;*/
+    display: none;
   }
 
   .page-template-default .container.tb-post-content {
@@ -3268,15 +3313,56 @@ responsive
 
   .mobile-slider {
     display: block;
+    margin-top: 30px;
   }
 
   .desktop-slider {
     display: none;
   }
 
+  /*====LEADERSHIP CUSTOM POST=======*/
+  .leadership-template-default .wp-post-image {
+    float: none;
+    margin: 2%;
+  }
+
+  /*=====WPR MENU====================*/
+  #wprmenu_bar .bar_logo {
+    margin: 0 0 4px 0;
+    padding: 0px 0px 4px 0px;
+    width: auto;
+    height: 60px;
+  }
+
+  #wprmenu_bar {
+    height: 70px !important;
+    position: fixed;
+    z-index: 99999;
+  }
+
+  #wprmenu_bar div.hamburger {
+    margin-top: 7px;
+  }
+
+/* didn't work */
+  .admin-bar #wprmenu_menu_ul {
+    margin-top: 60px !important;
+  }
+
+/* this works */
+  #mg-wprm-wrap {
+    padding-top: 27px;
+  }
+
+  /*.admin-bar #mg-wprm-wrap.cbp-spmenu-left, .admin-bar #mg-wprm-wrap.cbp-spmenu-right {
+    top: 130px;
+  }*/
+
+
 }
 
 @media screen and (max-width: 350px) {
+
   .container.main-menu {
     margin-top: 50px;
   }
@@ -3301,6 +3387,7 @@ responsive
     background: #1d3f7c;
     padding: 2px 0;
     /*margin-top: -10px;*/
+    display: none;
   }
   .page-template-default .container.tb-post-content {
     display: flex;
@@ -3321,13 +3408,52 @@ responsive
 
  .mobile-slider {
    display: block;
+   margin-top: 30px;
  }
 
  .desktop-slider {
    display: none;
  }
 
-}
+ /*====LEADERSHIP CUSTOM POST=======*/
+ .leadership-template-default .wp-post-image {
+   float: none;
+   margin: 2%;
+ }
+
+ /*=====WPR MENU====================*/
+ #wprmenu_bar .bar_logo {
+   margin: 0 0 4px 0;
+   padding: 0px 0px 4px 0px;
+   width: auto;
+   height: 60px;
+ }
+
+ #wprmenu_bar {
+   height: 70px !important;
+   position: fixed;
+   z-index: 99999;
+ }
+
+ #wprmenu_bar div.hamburger {
+   margin-top: 7px;
+ }
+
+/* didn't work */
+ .admin-bar #wprmenu_menu_ul {
+   margin-top: 60px !important;
+ }
+
+/* this does */
+ #mg-wprm-wrap {
+   padding-top: 27px;
+ }
+
+ /*.admin-bar #mg-wprm-wrap.cbp-spmenu-left, .admin-bar #mg-wprm-wrap.cbp-spmenu-right {
+   top: 130px;
+ }*/
+
+ }
 
 @-webkit-keyframes slide {
   100% {
