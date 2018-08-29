@@ -2938,6 +2938,12 @@ div.wrapper.page-inner-title {
   margin: 0 2% 2% 2%;
 }
 
+/*=====MINISTRY CUSTOM POST=========*/
+.ministries-template-default .wp-post-image {
+  float: left;
+  margin: 0 2% 2% 2%;
+}
+
 /*
 .event-container {
 margin-left: 35%;
@@ -3326,6 +3332,12 @@ responsive
     margin: 2%;
   }
 
+  /*=====MINISTRY CUSTOM POST=========*/
+  .ministries-template-default .wp-post-image {
+    float: none;
+    margin: 0;
+  }
+
   /*=====WPR MENU====================*/
   #wprmenu_bar .bar_logo {
     margin: 0 0 4px 0;
@@ -3419,6 +3431,12 @@ responsive
  .leadership-template-default .wp-post-image {
    float: none;
    margin: 2%;
+ }
+
+ /*=====MINISTRY CUSTOM POST=========*/
+ .ministries-template-default .wp-post-image {
+   float: none;
+   margin: 0;
  }
 
  /*=====WPR MENU====================*/
